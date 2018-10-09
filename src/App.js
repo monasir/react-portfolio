@@ -21,7 +21,7 @@ class App extends Component {
     const anchs = [...document.querySelectorAll('.links')];
     
     const anch = [...anchs];
-    console.log(anchs);
+  
 
     
     this.setState({
