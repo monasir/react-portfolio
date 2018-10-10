@@ -47,7 +47,7 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div className="App">
-        
+        <canvas ref="canvas">
           <Header handleClick={this.handleClick.bind(this)}/>
           <Switch>  
               <Route exact path="/" component={Home}/> 
@@ -55,7 +55,7 @@ class App extends Component {
               <Route path="/projects" component={Projects}/>
               <Route path="/contact" component={Contact}/>
           </Switch>
-      
+        </canvas>
       </div>
       </BrowserRouter> 
     );
